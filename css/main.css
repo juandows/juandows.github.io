@@ -1,0 +1,22 @@
+header, main, footer {
+    padding-left: 300px;
+}
+nav {
+    height: 110px;
+}
+nav.nav-wrapper {
+    position: relative;
+    height: 100%;
+}
+nav.top-nav {
+    height: 110px;
+}
+nav.top-nav a.page-title {
+    line-height: 110px;
+    font-size: 48px;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+}
