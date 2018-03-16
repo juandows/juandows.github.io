@@ -20,7 +20,6 @@ input#abrir-cerrar {
 
 label[for="abrir-cerrar"] {
     cursor:pointer;
-    padding: 1rem;
     background-color:#333;
     color:#fff;
     display:inline-block;
@@ -46,6 +45,7 @@ input#abrir-cerrar:checked ~ #sidebar {
 
 input#abrir-cerrar:checked + label[for="abrir-cerrar"], input#abrir-cerrar:checked ~ #contenido {
     margin-left:300px;
+    width:calc(100% - 300px);
     transition: margin-left .4s;
 }
 
@@ -121,12 +121,19 @@ h1 {
 }
 #contenido {
     transition: margin-left .4s;
-    padding: 1rem;
 }
-
+.contenido_content{
+  padding: 1rem;
+}
 .abrir-cerrar {
     color: #2E88C7;
     font-size:1rem;
+}
+.abrir-cerrar-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+
 }
 #front-page-logo{
   width: 150px;
