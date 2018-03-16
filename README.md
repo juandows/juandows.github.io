@@ -11,6 +11,7 @@ curl --request GET 'https://euw1.api.riotgames.com/lol/champion-mastery/v3/champ
 
 curl --request GET 'https://euw1.api.riotgames.com/lol/static-data/v3/champions/497?tags=all&api_key=RGAPI-fad24dd4-0134-4545-acb1-a03adfea04ed' --include
 
+https://developer.riotgames.com/static-data.html
 
 https://ddragon.leagueoflegends.com/cdn/8.5.1/img/champion/Rakan.png
 
