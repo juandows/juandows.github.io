@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link media="all" href="css/main.css" rel="stylesheet">
+  <link media="only screen and (max-width: 992px)" href="css/main_small.css" rel="stylesheet">
+</head>
+<title>Página personal Juandows</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta charset="UTF-8">
+<body onload="script();">
+  <input type="checkbox" id="abrir-cerrar" name="abrir-cerrar" value="">
+  <label for="abrir-cerrar">
+    <div class="abrir-cerrar-content">
+      <div>
+        &#9776; <span class="abrir">Abrir</span><span class="cerrar">Cerrar</span>
+      </div>
+      <div class="abrir-cerrar-left">
+        Juandows
+      </div>
+    </div>
+  </label>
+  <div id="sidebar" class="sidebar">
+      <ul class="menu">
+          <li><a href="#">Artículos</a></li>
+          <li><a href="#">Recursos</a></li>
+          <li><a href="#">Curriculum vitae</a></li>
+          <li><a href="#">Perfil lol</a></li>
+          <li><a href="#">Partida lol</a></li>
+          <li><a href="personajes.html">Personajes lol</a></li>
+      </ul>
+  </div>
+  <div id="contenido">
+    <div class="contenido_content">
+      <p><a id="logo-container" href="/" class="brand-logo">
+            <object id="front-page-logo" type="image/svg+xml" data="img/One_Piece_symbol.svg">Your browser does not support SVG</object></a>
+      </p>
+      <h1>Personaje  <span id="nombre"></span></h1>
+    </div>
+  </div>
+
+  <script src="js/personaje.js"></script>
+</body>
+</html>
