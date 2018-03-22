@@ -18,7 +18,7 @@ data = r.json()
 for champion in data["champions"]:
     if (os.path.isfile('data/champion'+str(champion["id"])+'.json')):
         continue
-    time.sleep(600)
+    time.sleep(1)
     url = "https://euw1.api.riotgames.com/lol/static-data/v3/champions/"+str(champion["id"])+"?tags=all&api_key=RGAPI-2ab38b8e-b0fe-4d9e-ab55-f25488b6eed7"
     r = requests.get(url)
     pprint(r.content)
