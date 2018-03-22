@@ -26,3 +26,18 @@ function loadJSON(file, callback) {
     };
     xobj.send(null);
 }
+
+function showHtml(id, html) {
+    var span = document.getElementById(id);
+    while( span.firstChild ) {
+        span.removeChild( span.firstChild );
+    }
+    //span.appendChild( document.createTextNode(html) );
+    span.innerHTML += html;
+}
+
+
+function addHtml(id, html) {
+    var span = document.getElementById(id);
+    span.innerHTML += html;
+}
