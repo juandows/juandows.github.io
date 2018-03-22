@@ -73,7 +73,7 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
     top: 0;
     left: 0;
     z-index: 1;
-    background-color: black;/*#00324b;*/
+    background-color: #333;/*#00324b;*/
     overflow-x: hidden;
     transition: 0.4s;
     padding: 1rem 0;
@@ -147,3 +147,22 @@ h1 {
   width: 150px;
   height: 150px;
 }
+
+.typewriter {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: type 4s steps(50, end);
+}
+.typewriter span {
+    animation: blink 1s infinite;
+}
+
+@keyframes type{
+    from { width: 0; }
+}
+
+@keyframes blink{
+    to{opacity: .0;}
+}
+
