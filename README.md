@@ -19,3 +19,6 @@ https://developer.riotgames.com/static-data.html
 https://ddragon.leagueoflegends.com/cdn/8.5.1/img/champion/Rakan.png
 
 https://ddragon.leagueoflegends.com/cdn/8.5.1/img/sprite/champion2.png
+
+Servirlo en Nginx:
+docker-compose up
