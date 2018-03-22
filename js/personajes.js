@@ -19,8 +19,8 @@ function getChampionHtml(champion, callback){
     loadJSON('data/champion'+champion["id"]+'.json', function(response) {
         var championData = JSON.parse(response);
         console.log(championData);
-        var html = '<img src="http://ddragon.leagueoflegends.com/cdn/8.6.1/img/champion/'+championData["image"]["full"]+'">';
-        html += '<p>' + champion["id"]+' '+championData["name"]+ '</p>';
+        var html = '<div><img src="http://ddragon.leagueoflegends.com/cdn/8.6.1/img/champion/'+championData["image"]["full"]+'"></div>';
+        html += '<div>' + champion["id"]+'</div><div>'+championData["name"]+ '</div>';
         callback(champion["id"], html);
     });
 }

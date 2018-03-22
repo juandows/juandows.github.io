@@ -1,8 +1,16 @@
+@font-face {
+    font-family: 'Hermit';
+    font-weight: bold;
+    src: url('../fonts/Hermit-bold.otf')  format("opentype");
+}
+
 body {
-    font-family: "Segoe UI", sans-serif;
     font-size:100%;
     margin:0;
     padding:0;
+    background-color: black;
+    font-family: Hermit;
+    /*font-family: "Segoe UI", sans-serif;*/
 }
 
 header {
@@ -21,7 +29,7 @@ input#abrir-cerrar {
 label[for="abrir-cerrar"] {
     cursor:pointer;
     background-color:#333;
-    color:#fff;
+    color:#ffff00;/*#fff;*/
     display:inline-block;
     width:100%;
 
@@ -65,7 +73,7 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
     top: 0;
     left: 0;
     z-index: 1;
-    background-color: #00324b;
+    background-color: black;/*#00324b;*/
     overflow-x: hidden;
     transition: 0.4s;
     padding: 1rem 0;
@@ -103,7 +111,7 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 .sidebar a {
     display: block;
     font-size: 120%;
-    color: #eee;
+    color: #ffff00;/*#eee;*/
     text-decoration: none;
 
 }
