@@ -20,7 +20,7 @@ function getChampionHtml(champion, callback){
         var championData = JSON.parse(response);
         console.log(championData);
         var html = '<div><img src="http://ddragon.leagueoflegends.com/cdn/8.6.1/img/champion/'+championData["image"]["full"]+'"></div>';
-        html += '<div>' + champion["id"]+'</div><div>'+championData["name"]+ '</div>';
+        html += '<div>'+championData["name"]+ '</div>';
         callback(champion["id"], html);
     });
 }
