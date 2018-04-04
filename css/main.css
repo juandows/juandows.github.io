@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Hermit';
     font-weight: bold;
-    src: url('../fonts/Robotica.ttf')  format("opentype");
-    /*src: url('../fonts/Hermit-bold.otf')  format("opentype");*/
+    /*src: url('../fonts/Robotica.ttf')  format("opentype");*/
+    src: url('../fonts/Hermit-bold.otf')  format("opentype");
 }
 
 body {
