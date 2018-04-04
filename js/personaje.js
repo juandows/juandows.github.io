@@ -10,7 +10,7 @@ function script(){
       var imagen = championData["image"]["full"];
       imagen = imagen.substr(0, imagen.length-4);
       showHtml('imagen', '<img src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/'+imagen+'_0.jpg">');
-      showHtml('texto', championData["lore"]);
+      showHtml('lore', championData["lore"]);
   });
 
 }
