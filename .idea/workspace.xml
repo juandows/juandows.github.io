@@ -2,8 +2,150 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="256b4b28-cb2b-4e62-8b0b-d712bed1ed79" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/js/personaje.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/personaje.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personaje.html" beforeDir="false" afterPath="$PROJECT_DIR$/personaje.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/capturer/capture.py" beforeDir="false" afterPath="$PROJECT_DIR$/capturer/capture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion10.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion101.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion102.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion103.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion104.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion105.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion106.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion107.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion11.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion110.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion111.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion112.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion113.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion114.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion115.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion117.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion119.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion12.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion120.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion121.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion122.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion126.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion127.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion13.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion131.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion133.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion134.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion136.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion14.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion141.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion142.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion143.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion145.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion15.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion150.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion154.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion157.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion16.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion161.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion163.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion164.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion17.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion18.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion19.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion20.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion202.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion203.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion21.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion22.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion222.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion223.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion23.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion236.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion238.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion24.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion240.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion245.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion25.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion254.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion26.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion266.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion267.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion268.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion27.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion28.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion29.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion30.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion31.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion32.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion33.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion34.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion35.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion36.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion37.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion38.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion39.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion40.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion41.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion412.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion42.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion420.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion421.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion427.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion429.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion43.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion432.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion44.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion45.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion48.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion497.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion498.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion50.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion51.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion516.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion53.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion54.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion55.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion56.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion57.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion58.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion59.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion60.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion61.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion62.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion63.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion64.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion67.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion68.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion69.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion72.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion74.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion75.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion76.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion77.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion78.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion79.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion80.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion81.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion82.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion83.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion84.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion85.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion86.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion89.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion90.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion91.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion92.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion96.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion98.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champion99.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champions.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/champions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/champions_juandows.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/summoner.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +156,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="personaje.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="personaje.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/personaje.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+            <state relative-caret-position="162">
+              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="capture.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/capturer/capture.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -67,7 +218,6 @@
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/data/champion1.json" />
         <option value="$PROJECT_DIR$/js/comun.js" />
-        <option value="$PROJECT_DIR$/capturer/capture.py" />
         <option value="$PROJECT_DIR$/css/champions.css" />
         <option value="$PROJECT_DIR$/js/personajes.js" />
         <option value="$PROJECT_DIR$/css/champion.css" />
@@ -76,6 +226,7 @@
         <option value="$PROJECT_DIR$/personajes.html" />
         <option value="$PROJECT_DIR$/personaje.html" />
         <option value="$PROJECT_DIR$/js/personaje.js" />
+        <option value="$PROJECT_DIR$/capturer/capture.py" />
       </list>
     </option>
   </component>
@@ -182,12 +333,12 @@
       <workItem from="1521731316420" duration="3481000" />
       <workItem from="1521738775660" duration="1509000" />
       <workItem from="1521789445950" duration="2136000" />
-      <workItem from="1522854463934" duration="1573000" />
+      <workItem from="1522854463934" duration="1963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24921000" />
+    <option name="totallyTimeSpent" value="25311000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
@@ -493,13 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/capturer/capture.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="154" selection-start-line="21" selection-start-column="154" selection-end-line="21" selection-end-column="154" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/comun.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -565,8 +709,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/personaje.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        <state relative-caret-position="162">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/capturer/capture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
         </state>
       </provider>
     </entry>
