@@ -151,10 +151,10 @@ h1 {
 }
 
 .typewriter {
-    white-space: nowrap;
-    overflow: hidden;
+    /*white-space: nowrap;*/
+    /*overflow: hidden;
     width: 30em;
-    animation: type 4s steps(50, end);
+    animation: type 4s steps(50, end);*/
 }
 .typewriter span {
     animation: blink 1s infinite;
