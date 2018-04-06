@@ -4,7 +4,7 @@ import json
 from pprint import pprint
 import os.path
 
-apikey = "RGAPI-54eaa93e-1ef3-496b-8185-903d2f4fb4a5";
+apikey = "RGAPI-3666c6c8-4363-416c-97a3-ebf83cdf8b1f";
 url = "https://euw1.api.riotgames.com/lol/platform/v3/champions?tags=all&api_key="+apikey
 r = requests.get(url)
 
